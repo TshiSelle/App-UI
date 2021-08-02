@@ -14,7 +14,7 @@
                   Background = "{TemplateBinding Background}">
 
               <TextBlock Text = "{TemplateBinding Property = Content}"
-                         VerticalALignment = "Center"/>
+                  VerticalALignment = "Center"/>
 
             </Grid>
           </ControlTemplate>
