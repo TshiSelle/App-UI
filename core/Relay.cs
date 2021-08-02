@@ -13,4 +13,9 @@ class Relay : ICommand
     _execute = execute;
     _canExecute = canExecute;
   }
+  
+  public bool CanExecute(object parm)
+  {
+    return _canExecute == null || _canExecute(parm);
+  }
 }
