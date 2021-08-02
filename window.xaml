@@ -1,6 +1,26 @@
-<Window Height="450" Width="800">
+<Window 
+Height="450" 
+Width="800"
+WindowStyle = "None"
+Background = "Transparent"
+>
+<Border
+Background = "#272537"
+CornerRadius = "10">
 <Grid>
 
+  <Grid.ColumnDefinition>
+    <ColumnDefinition Width ="200"/>
+    <ColumnDefinition/>
+  </Grid.ColumnDefinition>
 
- </Grid>
+  <Grid.RowDefinition>
+    <RowDefinition Height ="75"/>
+    <RowDefinition/>
+  </Grid.RowDefinition>
+
+
+</Grid>
+
+</Border>
 </Window>
