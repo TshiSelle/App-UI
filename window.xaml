@@ -19,8 +19,15 @@ CornerRadius = "10">
     <RowDefinition/>
   </Grid.RowDefinition>
 
+<TextBlock Text = "LogoHere"
+           VerticalAlignment = "Center"
+           HorizontalAlignment = "Center"
+           Foreground = "White"
+           FontSize = "22"/>
 
 </Grid>
+
+
 
 </Border>
 </Window>
