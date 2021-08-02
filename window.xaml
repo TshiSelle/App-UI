@@ -9,8 +9,8 @@
 Height="450" 
 Width="800"
 WindowStyle = "None"
-Background = "Transparent"
->
+Background = "Transparent">
+
 <Border
 Background = "#272537"
 CornerRadius = "10">
