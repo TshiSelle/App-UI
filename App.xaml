@@ -1,0 +1,13 @@
+<Application StartupUri = "window.xaml">
+
+    <Application.Resources>
+      <ResourceDictionary>
+        <ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary Source = "theme/MenuButtonTheme.xaml"/>
+            
+        </ResourceDictionary.MergedDictionaries>
+      </ResourceDictionary>
+    </Application.Resources>
+
+
+</Application>
