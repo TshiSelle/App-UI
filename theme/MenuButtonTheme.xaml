@@ -6,12 +6,27 @@
       <Setter Property = "Template">
         <Setter.Value>
           <ControlTemplate>
-            <Grid>
+            <Grid VerticalAlignment = "Stretch"
+                  HorizontalAlignment = "Stretch"
+                  Background = "{TemplateBinding Background}">
+
+              <TextBlock Text = "Hello World!"
+                         VerticalALignment = "Center">
 
             </Grid>
           </ControlTemplate>
         </Setter.Value>
       </Setter>
+
+      <Setter Property = "Background" Value = "Transparent"/>
+      <Setter Property = "BorderThickness" value = "0"/>
+
     </Style.Setters>
+
+    <Style.Triggers>
+      <Trigger Property = "IsChecked" Value = "True">
+          <Setter Property = "Background" Value = "#22202f"/>
+      </Trigger>
+    </Style.Trigger>
   </Style>
 </ResourceDictionary>
