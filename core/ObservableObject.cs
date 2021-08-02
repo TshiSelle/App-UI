@@ -4,6 +4,6 @@ class ObservableObject : INotifyPropertyChanged
 
     protected void OnPropertyChanged([CallerMemeberName]string name = null)
     {
-      
+      PropertyChnaged?.Invoke(this, new PropertyChnagedEventArgs(name));
     }
 }
