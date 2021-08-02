@@ -1,0 +1,17 @@
+<ResourceDictionary>
+  <Style BasedOn = "{StaticResource {x:type ToggleButton}}"
+         TargetType = "{x:type ToggleButton}"
+         x:Key = "MenuButtonTheme">
+    <Style.Setters>
+      <Setter Property = "Template">
+        <Setter.Value>
+          <ControlTemplate>
+            <Grid>
+
+            </Grid>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style.Setters>
+  </Style>
+</ResourceDictionary>
