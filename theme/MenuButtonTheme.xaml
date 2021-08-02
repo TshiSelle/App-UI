@@ -1,8 +1,6 @@
 <ResourceDictionary
-xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-  x:Class="SDKSample.DirectionalBinding"
-  xmlns:c="clr-namespace:SDKSample">
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
   <Style BasedOn = "{StaticResource {x:type RadioButton}}"
          TargetType = "{x:type RadioButton}"
