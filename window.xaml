@@ -25,6 +25,14 @@ CornerRadius = "10">
            Foreground = "White"
            FontSize = "22"/>
 
+<StackPanel Grid.Row = "1">
+    <RadioButton Content = "Home"
+                 Height = "50" 
+                 Foreground = "White"
+                 FontSize = "14" />
+</StackPanel>
+
+
 </Grid>
 
 
